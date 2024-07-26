@@ -1,14 +1,9 @@
-const nombre = 'alessi'
-const email = 'alekyu96@gmail.com'
+const nombre = 'Juan';
+const email = 'correo@correo.com';
 
-// Concatenacion 
-
-console.log('Nombre cliente: ' + nombre + ' Email: ' + email);
-
-// Template Strings- Strings literals
-
-console.log(`Nombre cliente: ${nombre} Email: ${email}`);
+// Concatenación
+console.log("Nombre Cliente: " + nombre + " Email: " + email);
 
 
-
-
+// Template Strings - String Literals
+console.log(`Nombre Cliente: ${nombre} Email: ${email}`);

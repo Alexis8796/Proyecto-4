@@ -1,16 +1,18 @@
-// String o cadena de texto //
-const tweet = "Aprendiendo JavaScript con el curso de Desarrollo web completo";
-const producto2 = "monitor hd";
+// String o Cadenas de Texto
+
+const tweet = 'Aprendiendo JavaScript con el curso de Desarrollo Web Completo';
+const producto2 = 'Monitor HD"';
+const nombre = 'Juan Pablo';
 const email = 'correo@correo.com';
 
-// lenght es para la extension
-console.log(tweet.length)
-console.log(producto2)
+// length es para la extension
+console.log(tweet.length);
+console.log(producto2);
 
-// IndexOf (retorna posicion)
+// IndexOf (retorna posición)
 console.log(tweet.indexOf('JavaScript'));
 console.log(producto2.indexOf('Tablet'));
-console.log(email.indexOf('@'))
+console.log(email.indexOf('@'));
 
 // Includes (retorna true o false)
 console.log(tweet.includes('JavaScript'));
